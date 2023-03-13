@@ -89,16 +89,16 @@ ROUND 2
 Sending 1 from 0 to 1
 Sending 1 from 0 to 2
 Sending 0 from 0 to 3
-Sending 0 from 0 to 4
+Sending 1 from 0 to 4
 OUTPUTS [0, 1, 1, 0, 1]
 
 The table should look as follows:
 
 |    | P0 (General) | P1 | P2 | P3  | P4  |
 |----|--------------|----|----|-----|-----|
-| R0 |              |    |    | 0   | 0   |
-| R1 |              | 1  | 1  | 0,0 | 0,0 |
-| D  | 0            | 1  | 1  | 0   | 0   |
+| R0 |              |    |    | 0   | 1   |
+| R1 |              | 1  | 1  | 0,0 | 1,1 |
+| D  | 0            | 1  | 1  | 0   | 1   |
 
 
 Explain in words the situation in which validity and agreement do not hold.
