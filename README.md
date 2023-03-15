@@ -64,7 +64,7 @@ Your task is to fill in the `TODO`s:
 3. `decide`: According to the above algorithm, an honest party will output a decision bit only if all messages in their `msg` list contain the same bit. Otherwise, it will output default. Implement this as well as  decision functionality for a dishonest party. Remember, any behavior is allowed!
 
 
-Now lets check out the tests. When the general is dishonest, it should not satisfy validity and agreement. 
+Now lets check out the tests. When the general is dishonest, it may not satisfy validity and agreement. 
 When all parties are honest, both properties should be satisfied.
 
 Once your tests pass, fill out the following table with the values each party has at the end of the specified round as well as the decision value:
