@@ -129,7 +129,7 @@ try:
     print("PART 2: TEST 2 PASSED")
 except AssertionError as e:
     print("PART 2: TEST 1 FAILED")
-    print("Validity and agreement should not hold when the general is dishonest")
+    print("Validity and agreement should hold even when the general is dishonest")
     print()
 
 
